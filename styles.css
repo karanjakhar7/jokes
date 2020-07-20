@@ -1,0 +1,19 @@
+.jokes {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 2rem;
+
+}
+.para{
+  margin-bottom: 40px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.joke{
+  font-size: 1.5rem;
+  margin-top: 0;
+  padding-top: 2rem;
+}
