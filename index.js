@@ -12,6 +12,16 @@ async function  getJoke(){
     });
     const joke = await jokeRes.json();
 
-    jokeDiv.innerHTML = joke.value.joke;
+    theJoke = joke.value.joke;
+
+    if (!(theJoke.includes("pennis") || theJoke.includes("dick")|| theJoke.includes("sex"))){
+        jokeDiv.innerHTML = theJoke;
+    }
+
+    else{
+      getJoke();
+    }
+
+
 
 }
